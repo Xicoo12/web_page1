@@ -15,9 +15,12 @@
     align-items: center;
     vertical-align: center;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .text {
+    margin-top: 35px;
     vertical-align: center;
     color: white;
     font-size: larger;
@@ -30,7 +33,7 @@
     background-color: rgb(225,6,0);
     content: "";
     clear: both;
-    height: 100px;
+
     display: flex;
   }
 </style>
@@ -58,29 +61,29 @@
 </head>
 
 <body>
-  <header style="height: 100px; background-color: rgb(225,6,0); " >
-    <div class="row">
+<header style="height: 100px; background-color: rgb(225,6,0); " >
+  <div class="row">
 
-      <div STYLE=" float: left;width: 10%;"><img src="img/f1-default-share.avif" style="height: 100px"></div>
-      <div class="column"><p class="text">News</p></div>
-      <div class="column"><p class="text">Teams</p></div>
-      <div class="column"><p class="text">Drivers</p></div>
-      <div class="column"><p class="text">Standings</p></div>
-    </div>
-  </header>
+    <div STYLE=" float: left;width: 10%;"><img src="img/f1-default-share.avif" style="height: 100px"></div>
+    <div class="column"><p class="text">News</p></div>
+    <div class="column"><p class="text">Teams</p></div>
+    <div class="column"><p class="text">Drivers</p></div>
+    <div class="column"><p class="text">Standings</p></div>
+  </div>
+</header>
 
-  <!-- Add your site or application content here -->
+<!-- Add your site or application content here -->
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
